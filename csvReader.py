@@ -13,4 +13,4 @@ def getCard(dictionarry, idCard):
     return dictionarry.get(idCard, "Carte inconnu")
 
 dictionarry = csvRead("onePieceTcgCardDatabase.csv")
-print(dictionarry)
+# print(dictionarry)
